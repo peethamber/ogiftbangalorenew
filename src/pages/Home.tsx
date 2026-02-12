@@ -140,7 +140,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen" >
-        <CoursePromoPopup />
+        {/* <CoursePromoPopup /> */}
         <StructuredData/>
        {/* {images?.length > 0  &&
             images?.map((image, index) => (
@@ -271,3 +271,4 @@ const Home = () => {
 };
 
 export default Home;
+
